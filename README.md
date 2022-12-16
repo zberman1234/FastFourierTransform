@@ -1,18 +1,15 @@
-## Getting Started
+# Fast Fourier Transform in Java
+This file contains an implementation of the Fast Fourier Transform (FFT) algorithm. The FFT is an efficient algorithm for calculating the Fourier transform of a sequence. It can be used to analyze the frequency content of a signal and has applications in a variety of fields, including signal and image processing and telecommunications.
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+### Usage
+To use the FFT implementation, you can pass in an array of Complex objects as an argument to the fft method. The Complex class is a custom class included in this file that represents complex numbers with real and imaginary components.
 
-## Folder Structure
+The fft method will return an array of Complex objects that represents the Fourier transform of the input array.
 
-The workspace contains two folders by default, where:
+### Testing
+This file also includes some test cases to ensure that the fft method is working correctly. The test cases are run in the main method, and confirm that the FFT method returns the expected results of the Fourier Transform.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+### Acknowledgements
+Material needed to write code learned in Mr. Kuszmaul's Data Structures class at Kehillah Jewish High School 2022-2023. Some code gotten from Robert Sedgewick and Kevin Wayne from Princeton University. 
+https://introcs.cs.princeton.edu/java/97data/FFT.java.html
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
