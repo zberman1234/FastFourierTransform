@@ -1,5 +1,5 @@
 # Fast Fourier Transform in Java
-This file contains an implementation of the Fast Fourier Transform (FFT) algorithm. The FFT is an efficient algorithm for calculating the Fourier transform of a sequence. It can be used to analyze the frequency content of a signal and has applications in a variety of fields, including signal and image processing and telecommunications.
+This file contains an implementation of the [Fast Fourier Transform](https://en.wikipedia.org/wiki/Fast_Fourier_transform) (FFT) algorithm. The FFT is an efficient algorithm for calculating the Fourier Transform of a sequence. It can be used to analyze the frequency content of a signal and has applications in a variety of fields, including signal and image processing and telecommunications.
 
 ### Usage
 To use the FFT implementation, you can pass in an array of Complex objects as an argument to the fft method. The Complex class is a custom class included in this file that represents complex numbers with real and imaginary components.
